@@ -29,7 +29,7 @@ addn-hosts=/etc/hosts2
 # ad servers list
 conf-file=/etc/dnsmasq.block.conf
 
-# Max cache size dnsmasq can give us, and we want all of it!
+# max cache size for dnsmasq
 cache-size=10000
 
 ```
