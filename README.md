@@ -1,7 +1,7 @@
 # debdnsmasq
-network wide ad-blocking on debian (pi) / ubuntu 
+network wide ad-blocking on debian / ubuntu 
 
-this works well on a pi in a small (home) network.
+this also works well on a pi in a small (home) network.
 
 ### install dnsmasq
 
@@ -37,6 +37,7 @@ cache-size=10000
 * add the file to sysupgrades
 
 ```
+echo "/etc/hosts2" >> /etc/sysupgrade.conf
 echo "/etc/dnsmasq.block.conf" >> /etc/sysupgrade.conf
 
 ```
@@ -52,5 +53,5 @@ curl -s "http://pgl.yoyo.org/as/serverlist.php?hostformat=dnsmasq-server&showint
 
 ```
 
-setup this server with a static IP and set your routers DNS servers to this IP.
-reconnect to the network on yourmobile devices, you should not see any more ads. 
+setup this server with a static IP and point your routers DNS servers to this IP.
+reconnect to the network on your devices, you should not see any more ads now. 
