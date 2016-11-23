@@ -23,7 +23,9 @@ min-port=4096
 server=8.8.8.8
 server=8.8.4.4
 
-# (optional) additional hosts file, useful for local domains & blocking domains which are not listed in /etc/dnsmasq.block.conf
+# (optional) additional hosts file
+# useful for adding network wide local domains or 
+# blocking domains which are not listed in /etc/dnsmasq.block.conf
 addn-hosts=/etc/hosts2
 
 # ad servers list
@@ -42,7 +44,7 @@ echo "/etc/dnsmasq.block.conf" >> /etc/sysupgrade.conf
 
 ```
 
-* add the following as a bash script and run as root cronjob (every week or so)
+* add the following as a bash script and run as root cronjob (every week, at teatime)
 
 ```
 #!/bin/bash
