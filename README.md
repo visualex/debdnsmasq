@@ -26,7 +26,7 @@ server=8.8.4.4
 # (optional) additional hosts file
 # useful for adding network wide local domains or 
 # blocking domains which are not listed in /etc/dnsmasq.block.conf
-addn-hosts=/etc/hosts2
+addn-hosts=/etc/hosts_extra
 
 # ad servers list
 conf-file=/etc/dnsmasq.block.conf
@@ -39,7 +39,7 @@ cache-size=10000
 * add the file to sysupgrades
 
 ```
-echo "/etc/hosts2" >> /etc/sysupgrade.conf
+echo "/etc/hosts_extra" >> /etc/sysupgrade.conf
 echo "/etc/dnsmasq.block.conf" >> /etc/sysupgrade.conf
 
 ```
