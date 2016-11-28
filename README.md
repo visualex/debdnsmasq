@@ -55,5 +55,8 @@ curl -s "http://pgl.yoyo.org/as/serverlist.php?hostformat=dnsmasq-server&showint
 
 ```
 
-setup this server with a static IP and point your routers DNS servers to this IP.
-reconnect to the network on your devices, you should not see any more ads now. 
+* setup this server with a static IP 
+* point your routers default DNS to this IP.
+* reconnect to the network on your devices
+
+you should not see any more ads now.
