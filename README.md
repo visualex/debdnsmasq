@@ -1,8 +1,6 @@
 # debdnsmasq
 network wide ad-blocking on debian / ubuntu 
 
-this also works well on a pi in a small (home) network.
-
 ### install dnsmasq
 
 ```
